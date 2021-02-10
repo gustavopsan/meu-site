@@ -1,6 +1,8 @@
 function HomePage() {
     return (
-        <div>Bem vindo ao meu website!</div>
+        <div>
+            <h1>Bem vindo ao meu website!</h1>
+        </div>
     )
 }
   

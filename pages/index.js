@@ -1,6 +1,6 @@
 function HomePage() {
     return (
-        <div>Testado ReactJS com Next.js</div>
+        <div>Bem vindo ao meu website!</div>
     )
 }
   

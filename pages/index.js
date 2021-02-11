@@ -8,6 +8,7 @@ function HomePage() {
                 <a href="/"><img className="eng" src={require('../img/icon_engrenagem.png')} alt="engrenagem"/></a>
                 <h1>Estamos em desenvolvimento...</h1>
                 <h2>Por favor, fique calmo. Voltaremos em breve!</h2>
+                <h1>Teste Git</h1>
             </div>
         </div>
     )

@@ -2,12 +2,14 @@ import React from 'react'
 
 function HomePage() {
     return (
-        <div>
-            <h1 className="welcome">Bem vindo ao meu website!</h1>
+        <div className="main">
+            <h1 className="welcome">Desculpa te desapontar, mas...</h1>
             <div className="center">
-                <a href="/"><img className="eng" src={require('../img/icon_engrenagem.png')} alt="engrenagem"/></a>
-                <h1>Estamos em desenvolvimento...</h1>
-                <h2>Por favor, fique calmo. Voltaremos em breve!</h2>
+                <img className="eng" src={require('../img/icon_engrenagem.png')} alt="engrenagem"/>
+                <h1>Esta página está em desenvolvimento.</h1>
+                <h2>Por favor, fique tranquilo. Voltaremos em breve!</h2>
+                <br></br>
+                <a href="/home"><span id="back-btn">Página Inicial</span></a>
             </div>
         </div>
     )

@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 
 import Footer from '../components/footer'
 import Header from '../components/header'
+import Container from '../components/container'
 
 function HomePage() {
     return (
@@ -11,7 +12,9 @@ function HomePage() {
                 <title>Home - Gustavo P. Santana</title>
             </Helmet>
             <Header />
-            <h1>Dessa vez temos uma homepage, ou quase...</h1>
+            <Container>
+                <h1>Dessa vez temos uma homepage, ou quase...</h1>
+            </Container>
             <Footer />
         </>
     )

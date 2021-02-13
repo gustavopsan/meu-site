@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Menu = () => (
-    <nav class="app-menu">
+    <nav className="app-menu">
         <ul className="app-menu_list">
             <li className="app-menu_item">
                 <a className="app-menu_link" href="/">

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: fira code sm;
+    src: url("../assets/fonts/Fira_Code/FiraCode-SemiBold.ttf")
+}
+
+@font-face {
+    font-family: fira code bd;
+    src: url("../assets/fonts/Fira_Code/FiraCode-Bold.ttf")
+}
+
+@font-face {
+    font-family: fira code lt;
+    src: url("../assets/fonts/Fira_Code/FiraCode-Light.ttf")
+}
+
+@font-face {
+    font-family: fira code md;
+    src: url("../assets/fonts/Fira_Code/FiraCode-Medium.ttf")
+}
+
+@font-face {
+    font-family: fira code;
+    src: url("../assets/fonts/Fira_Code/FiraCode-Regular.ttf")
+}

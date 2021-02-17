@@ -9,7 +9,7 @@ function HomePage() {
     return (
         <>
             <Helmet>
-                <title>Home - Gustavo P. Santana</title>
+                <title>Gustavo P. Santana - Desenvolvedor Frontend</title>
             </Helmet>
             <Header />
             <Container>

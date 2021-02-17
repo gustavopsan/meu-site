@@ -1,11 +1,12 @@
 .app-footer {
-    background: #dcdcdc;
+    background: #F2F2F2;
     padding: .5rem 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .app-footer__message {
-    color: #595959;
+    color: #535353;
     font-family: sans-serif;
+    font-size: 12px;
 }

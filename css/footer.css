@@ -10,3 +10,15 @@
     font-family: sans-serif;
     font-size: 12px;
 }
+
+.social-icon {
+    height: 22px;
+    padding-right: 10px;
+}
+
+.app-footer_icons {
+    background: #F2F2F2;
+    padding-top: .5rem;
+    display: flex;
+    justify-content: center;
+}

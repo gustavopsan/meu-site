@@ -12,7 +12,8 @@
 
 .app-menu_link {
     color: #535353;
-    font-family: Fira Code Md;
+    border: 1px black;
+    font-family: montserrat md;
     margin-right: 1rem;
     text-decoration: none;
 }

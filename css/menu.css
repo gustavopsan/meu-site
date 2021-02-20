@@ -3,6 +3,7 @@
 .app-menu_list {
     display: flex;
     padding: 0 0 0 25px;
+    margin-top: 0;
 }
 
 .app-menu_item {

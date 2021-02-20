@@ -9,8 +9,8 @@ const Menu = () => (
                 </a>
             </li>
             <li className="app-menu_item">
-                <a className="app-menu_link" href="/contato">
-                    Contato
+                <a className="app-menu_link" href="/projetos">
+                    Projetos
                 </a>
             </li>
             <li className="app-menu_item">
@@ -19,8 +19,8 @@ const Menu = () => (
                 </a>
             </li>
             <li className="app-menu_item">
-                <a className="app-menu_link" href="/projetos">
-                    Projetos
+                <a className="app-menu_link" href="/contato">
+                    Contato
                 </a>
             </li>
         </ul>

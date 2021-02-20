@@ -1,3 +1,5 @@
+/* FIRA CODE */
+
 @font-face {
     font-family: fira code sm;
     src: url("../assets/fonts/Fira_Code/FiraCode-SemiBold.ttf")
@@ -22,6 +24,8 @@
     font-family: fira code;
     src: url("../assets/fonts/Fira_Code/FiraCode-Regular.ttf")
 }
+
+/* MONTSERRAT */
 
 @font-face {
     font-family: montserrat blk;
@@ -111,4 +115,11 @@
 @font-face {
     font-family: montserrat tn itl;
     src: url("../assets/fonts/Montserrat/Montserrat-ThinItalic.ttf")
+}
+
+/* BEBAS NEUE */
+
+@font-face {
+    font-family: bebas neue;
+    src: url("../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf")
 }

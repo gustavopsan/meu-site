@@ -5,7 +5,7 @@ body {
 
 .titlewt {
     font-family: montserrat rg;
-    font-size: 3.150rem;
+    font-size: 3.000rem;
     color: #F2F2F2;
     text-align: center;
     position: absolute;
@@ -16,8 +16,10 @@ body {
   }
 
 .titlebk {
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: montserrat rg;
-    font-size: 3.150rem;
+    font-size: 3.000rem;
     color: #000000;
     text-align: center;
     position: absolute;
@@ -25,4 +27,10 @@ body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+  }
+
+  @media (min-width: 880px) {
+    .titlebk, .titlewt {
+      font-size: 3.300rem;
+    }
   }

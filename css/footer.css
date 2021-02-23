@@ -22,3 +22,9 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 375px) {
+    .app-footer__message {
+        font-size: 11px;
+    }
+}

@@ -15,6 +15,7 @@ function HomePage() {
                 <link rel="icon" type="image/png" sizes="16x16" href={require('../assets/icons/favicon-16x16.png')} />
                 <link rel="manifest" href="/site.webmanifest" />
                 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+                <meta name="description" content="Website de Desenvolvedor" />
             </Helmet>
             <Header />
             <Container bg_img={require('../assets/img/yellow_pen.jpg')}>

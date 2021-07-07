@@ -19,7 +19,7 @@ function HomePage() {
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <script>
                     {`
-                    (adsbygoogle = window.adsbygoogle || []).Push({
+                    (adsbygoogle = window.adsbygoogle || []).push({
                       google_ad_client: "ca-pub-4865440295689037",
                       enable_page_level_ads: true
                     });

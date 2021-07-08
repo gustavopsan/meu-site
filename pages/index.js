@@ -34,7 +34,6 @@ function HomePage() {
                 client="ca-pub-4865440295689037"
                 slot="7211799398"
                 style={{ display: 'block' }}
-                layout="in-article"
                 format="auto"
                 responsive="true"
             />

@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import {Adsense} from 'react-adsense';
+import {Adsense} from '@ctrl/react-adsense'
 
 import Footer from '../components/footer'
 import Header from '../components/header'
@@ -19,12 +19,7 @@ function HomePage() {
                 <meta name="description" content="Website de Desenvolvedor" />
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <script>
-                    {`
-                    (adsbygoogle = window.adsbygoogle || []).push({
-                      google_ad_client: "ca-pub-4865440295689037",
-                      enable_page_level_ads: true
-                    });
-                  `}
+                    {`(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-4865440295689037", enable_page_level_ads: true });`}
                 </script>
             </Helmet>
             <Header />
@@ -39,6 +34,7 @@ function HomePage() {
                 client="ca-pub-4865440295689037"
                 slot="7211799398"
                 style={{ display: 'block' }}
+                layout="in-article"
                 format="auto"
                 responsive="true"
             />

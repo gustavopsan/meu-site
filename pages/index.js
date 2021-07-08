@@ -35,7 +35,7 @@ function HomePage() {
             </Container>
 
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- ads-beta -->
+
             <ins className="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-4865440295689037"

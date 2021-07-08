@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import {Adsense} from 'react-adsense';
 
 import Footer from '../components/footer'
 import Header from '../components/header'
@@ -34,17 +35,13 @@ function HomePage() {
                 <h1 className="titlebk">Tiramos sua ideia do papel e transformamos em algo que todos podem admirar!</h1>
             </Container>
 
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins className="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-4865440295689037"
-                 data-ad-slot="7211799398"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+            <Adsense
+                client="ca-pub-4865440295689037"
+                slot="7211799398"
+                style={{ display: 'block' }}
+                format="auto"
+                responsive="true"
+            />
 
             <Footer />
         </>

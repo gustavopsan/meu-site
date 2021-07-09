@@ -23,9 +23,3 @@
     font-family: bebas neue;
     font-size: 50px;
 }
-
-@media (max-width: 375px) {
-    .app-header_logo {
-        font-size: 48px;
-    }
-}

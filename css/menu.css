@@ -22,12 +22,3 @@
 .app-menu_link:hover {
     color: #2e2e2e;
 }
-
-@media (max-width: 375px) {
-    .app-menu_link{
-        margin-right: 0.3rem;
-    }
-    .app-menu_list {
-        padding: 0 0 0 15px;
-    }
-}

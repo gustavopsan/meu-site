@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import {Adsense} from '@ctrl/react-adsense'
 
 import Footer from '../components/footer'
 import Header from '../components/header'
@@ -16,11 +15,6 @@ function HomePage() {
                 <link rel="icon" type="image/png" sizes="16x16" href={require('../assets/icons/favicon-16x16.png')} />
                 <link rel="manifest" href="/site.webmanifest" />
                 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-                <meta name="description" content="Website de Desenvolvedor" />
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <script>
-                    {`(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-4865440295689037", enable_page_level_ads: true });`}
-                </script>
             </Helmet>
             <Header />
             <Container bg_img={require('../assets/img/yellow_pen.jpg')}>
@@ -29,15 +23,6 @@ function HomePage() {
             <Container bg_img={require('../assets/img/blue_wall.jpg')}>
                 <h1 className="titlebk">Tiramos sua ideia do papel e transformamos em algo que todos podem admirar!</h1>
             </Container>
-
-            <Adsense
-                client="ca-pub-4865440295689037"
-                slot="7211799398"
-                style={{ display: 'block' }}
-                format="auto"
-                responsive="true"
-            />
-
             <Footer />
         </>
     )

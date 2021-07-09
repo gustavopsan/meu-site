@@ -34,9 +34,3 @@ body {
       font-size: 3.300rem;
     }
   }
-
-  @media (max-width: 375px) {
-    .titlebk, .titlewt {
-      font-size: 2.300rem;
-    }
-  }

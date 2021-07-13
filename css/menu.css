@@ -2,20 +2,19 @@
 
 .app-menu_list {
     display: flex;
-    padding: 0 0 0 25px;
+    padding: 0;
     margin-top: 0;
 }
 
 .app-menu_item {
     list-style: none;
-    padding-right: 10px;
+    padding: 0 8px;
 }
 
 .app-menu_link {
     color: #535353;
     border: 1px black;
     font-family: montserrat md;
-    margin-right: 1rem;
     text-decoration: none;
 }
 

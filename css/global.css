@@ -3,7 +3,7 @@ body {
   }
 
 
-.titlewt {
+.title-c-white {
     font-family: montserrat rg;
     font-size: 3.000rem;
     color: #F2F2F2;
@@ -15,7 +15,7 @@ body {
     transform: translate(-50%, -50%);
   }
 
-.titlebk {
+.title-c-black {
     padding-left: 10px;
     padding-right: 10px;
     font-family: montserrat rg;
@@ -29,8 +29,8 @@ body {
     transform: translate(-50%, -50%);
   }
 
-  @media (min-width: 880px) {
-    .titlebk, .titlewt {
+@media (min-width: 880px) {
+    .title-c-black, .title-c-white {
       font-size: 3.300rem;
     }
-  }
+}

@@ -18,10 +18,10 @@ function HomePage() {
             </Helmet>
             <Header />
             <Container bg_img={require('../assets/img/yellow_pen.jpg')}>
-                <h1 className="titlewt">Construímos seu site com a melhor e mais atual tecnologia do mercado!</h1>
+                <h1 className="title-c-white">Construímos seu site com a melhor e mais atual tecnologia do mercado!</h1>
             </Container>
             <Container bg_img={require('../assets/img/blue_wall.jpg')}>
-                <h1 className="titlebk">Tiramos sua ideia do papel e transformamos em algo que todos podem admirar!</h1>
+                <h1 className="title-c-black">Tiramos sua ideia do papel e transformamos em algo que todos podem admirar!</h1>
             </Container>
             <Footer />
         </>
